@@ -1,0 +1,16 @@
+{
+  "presets": ["react"],
+  "plugins": [
+    "transform-inline-environment-variables",
+    "lodash",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src"
+        },
+        "extensions": [".js"]
+      }
+    ]
+  ]
+}
